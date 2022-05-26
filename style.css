@@ -1,0 +1,152 @@
+@keyframes titulo {
+  from {
+    margin-top: 250%;
+    width: 100%
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.indicePrincipal{
+  display: inline-block;
+  margin-right: 2.3rem;
+}
+
+.indiceEnlace, .nav{
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.32em;
+  font-family:'Grenze', serif;
+  font-weight: 300;
+  color: white;
+}
+
+#emma{
+    list-style-image: url("hermione.png");
+    font-family: 'Share Tech Mono', monospace;
+    color: #76ff03;
+    font-size: 3vw;
+}
+
+#daniel{
+    list-style-image: url("harry.png");
+    padding: auto;
+    font-family: 'Share Tech Mono', monospace;
+    color: #76ff03;
+    font-size: 3vw;
+}
+
+#rupert{
+    list-style-image: url("ron.png");
+    padding: auto;
+    font-family: 'Share Tech Mono', monospace;
+    color: #76ff03;
+    font-size: 3vw;
+}
+
+.pelis{
+    margin: 80px;
+}
+
+.lemas, #pelis, #palabrasCursiva{
+    font-style: italic;
+}
+
+#personajes, #palabrasNegrita{
+    font-weight: bold;
+}
+
+#enlaces{
+    font-style: bold;
+    text-decoration: underline;
+}
+
+img, iframe{
+    margin:0 auto;
+    display: block;
+    border-radius: 50px;
+}
+
+h1 {
+    color: transparent;
+    text-align: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size: 150px;
+    font-weight: 800;
+    background-image: url(https://media.giphy.com/media/6SY853tTIYhNu/giphy.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
+h2 {
+    color: #d50000;
+    text-align: center;
+    font-family: 'Tourney', cursive, sans-serif;
+    font-size: 8vh;
+}
+
+h3 {
+    color: #76ff03;
+    text-align: center;
+    font-family:'Tourney', cursive;
+    font-size: 45px;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    font-family:'Grenze', serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+form {
+    color: white;
+    text-align: middle;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+}
+
+input {
+    color: black;
+    text-align: middle;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #d50000; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea {
+    color: black;
+    text-align: middle;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #d50000; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    width: 380px; 
+    height: 150px;
+}
+
+#footer{
+    text-align: center;
+}
